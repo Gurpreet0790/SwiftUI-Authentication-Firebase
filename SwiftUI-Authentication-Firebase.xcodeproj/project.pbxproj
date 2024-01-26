@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92A49CA82B64713C00DA61A3 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A49CA72B64713C00DA61A3 /* UserProfileView.swift */; };
 		92B62D0C2B6466AC000ECFB9 /* SwiftUI_Authentication_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B62D0B2B6466AC000ECFB9 /* SwiftUI_Authentication_FirebaseApp.swift */; };
 		92B62D102B6466AF000ECFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B62D0F2B6466AF000ECFB9 /* Assets.xcassets */; };
 		92B62D132B6466AF000ECFB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B62D122B6466AF000ECFB9 /* Preview Assets.xcassets */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		92A49CA52B646F0200DA61A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92A49CA72B64713C00DA61A3 /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		92B62D082B6466AC000ECFB9 /* SwiftUI-Authentication-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Authentication-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B62D0B2B6466AC000ECFB9 /* SwiftUI_Authentication_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Authentication_FirebaseApp.swift; sourceTree = "<group>"; };
 		92B62D0F2B6466AF000ECFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92A49CA62B64713C00DA61A3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				92A49CA72B64713C00DA61A3 /* UserProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		92B62CFF2B6466AC000ECFB9 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 				92B62D582B646808000ECFB9 /* GoogleService-Info.plist */,
 				92B62D572B646701000ECFB9 /* App */,
 				92B62D442B6466F1000ECFB9 /* Components */,
+				92B62D3E2B6466F1000ECFB9 /* Authentication */,
 				92B62D392B6466F1000ECFB9 /* Core */,
 				92B62D482B6466F2000ECFB9 /* Fonts */,
 				92B62D352B6466F1000ECFB9 /* Model */,
@@ -175,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				92B62D3C2B6466F1000ECFB9 /* Root */,
-				92B62D3E2B6466F1000ECFB9 /* Authentication */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -192,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				92B62D3F2B6466F1000ECFB9 /* AuthViewModel */,
+				92A49CA62B64713C00DA61A3 /* Profile */,
 				92B62D412B6466F1000ECFB9 /* View */,
 			);
 			path = Authentication;
@@ -385,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B62D4E2B6466F2000ECFB9 /* ContentView.swift in Sources */,
+				92A49CA82B64713C00DA61A3 /* UserProfileView.swift in Sources */,
 				92B62D4F2B6466F2000ECFB9 /* AuthViewModel.swift in Sources */,
 				92B62D502B6466F2000ECFB9 /* RegistrationView.swift in Sources */,
 				92B62D4B2B6466F2000ECFB9 /* UserInfo.swift in Sources */,
