@@ -1,0 +1,5 @@
+![LoginScreen-1](https://github.com/Gurpreet0790/SwiftUI-Authentication-Firebase/assets/38936433/b8f73878-fbb0-485d-a6d2-c5664d44d94b)
+![UserProfileScreen](https://github.com/Gurpreet0790/SwiftUI-Authentication-Firebase/assets/38936433/8c1f1d4a-ad80-482b-a1af-2b549a4fa8e6)
+![RegistrationScreen-2](https://github.com/Gurpreet0790/SwiftUI-Authentication-Firebase/assets/38936433/5ac1a90e-1f39-43f7-9058-378b6a05a202)
+![RegistrationScreen-1](https://github.com/Gurpreet0790/SwiftUI-Authentication-Firebase/assets/38936433/c8d7ae5c-0383-4f89-88e4-35244b3b169c)
+![LoginScreen-2](https://github.com/Gurpreet0790/SwiftUI-Authentication-Firebase/assets/38936433/9f7974b6-acb8-422b-94d0-e595fb8edf94)
